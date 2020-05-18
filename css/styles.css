@@ -30,7 +30,7 @@ body {
 }*/
 
 .container {
-    width: 1200px;
+    width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -163,7 +163,7 @@ body {
 }*/
 
 .section {
-    margin-bottom: 95px;
+    padding-bottom: 95px;
 }
 
 .section .section-title {
@@ -174,7 +174,8 @@ body {
     text-align: center;
 
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
 }
      /* Наши преимущества*/
 .feature-list {
@@ -215,6 +216,9 @@ body {
 /*.feature-list .item-work {
     width: 270px;*/
 }
+.item-work {
+    width: 370px;
+}
 .feature-list .item-work:not(:last-child) {
     margin-right: 30px;
 }
@@ -247,6 +251,10 @@ body {
 
     margin-top: 0;
     margin-bottom: 10px;
+}
+
+.item-team {
+    width: 270px;
 }
 
 .feature-list .item-team:not(:last-child) {
