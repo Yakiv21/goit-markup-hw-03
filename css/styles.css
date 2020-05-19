@@ -30,7 +30,7 @@ body {
 }*/
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -213,12 +213,7 @@ body {
 
     /* Чем занимаемся */
 
-/*.feature-list .item-work {
-    width: 270px;*/
-}
-.item-work {
-    width: 370px;
-}
+    
 .feature-list .item-work:not(:last-child) {
     margin-right: 30px;
 }
